@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LESliderController_Example', :exclusive => true do
+  pod "LESliderController", :path => "../"
+end
+
+target 'LESliderController_Tests', :exclusive => true do
+  pod "LESliderController", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
