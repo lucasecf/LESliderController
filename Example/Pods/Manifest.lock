@@ -16,6 +16,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
-  LESliderController: 953b8e0ac8bbda1b9ce41dc8d358ca56f59a06a1
+  LESliderController: 6edc92c92a113b79b3fd5bea0cdbc155d7652755
 
 COCOAPODS: 0.38.2

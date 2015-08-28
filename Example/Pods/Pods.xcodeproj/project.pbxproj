@@ -7,124 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02F1DC9254C382C8963EAF3614A34C6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058537F670E9BAB322181563081CC5B7 /* Foundation.framework */; };
-		13BF36C3B9EF8441921FA82DD85F9A6A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E8EDB06DE84C45D4D418C2D88E7C7F /* UIImage+Snapshot.m */; };
-		1AFBBC4B43A5C8C8182C0D970622C57C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058537F670E9BAB322181563081CC5B7 /* Foundation.framework */; };
-		26E0894A33DF5F95046BACFE1A8AB696 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = D16212B084E9F899D554B66D14B13043 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		281680DEBD42A8D273CA2BB256376AEF /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F32C26805428AE6851317B5B9ECBE6 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02E455A659426ED70E06B994D72F2F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE92965D1C20EECC9B00F0B0CF25C3BE /* Foundation.framework */; };
+		0D58CF81A87241C87A5AE93E374C95B2 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB042C409E64DC67C77EC56A182C302 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1905FD3C99868E9CA9F77C6032E65F6B /* LESliderMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B400785406D7A47883E0BFEDCAAFA0 /* LESliderMainViewController.m */; };
+		1AFBBC4B43A5C8C8182C0D970622C57C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE92965D1C20EECC9B00F0B0CF25C3BE /* Foundation.framework */; };
+		235593665154AAF965927D3E76ED4553 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB6E6C8995F21F9038D8C0780DB6E4E /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D2A3FC155E1C6800581E28217D9DAF9 /* Pods-LESliderController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3B5D06BB56D008EF0BA6B62D9DCBD /* Pods-LESliderController_Tests-dummy.m */; };
-		2D52C907928380F31E26DE31E97DF8D8 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D21CF3D5963E566EE4FEF61B5E2C80 /* FBSnapshotTestCase.m */; };
 		2E6A08867EB884E5551D9FF58C14D67E /* Pods-LESliderController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9228964DF7101BFEB929965EB048D9D /* Pods-LESliderController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		326143BCAE71410C0D3D466D97AB97A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058537F670E9BAB322181563081CC5B7 /* Foundation.framework */; };
-		3C949058F7FA7DAD54EFFF074E5F1553 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8430CEB80453C32D669E1C948421BC /* FBSnapshotTestController.m */; };
-		403FDC49540C95773179ACFD0CF51DC3 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D92A371FE3E489EE647A295A0BFEA9F7 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		487EDA9BE1EE34E5B46D353353F799C3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 720DF74AB624B69646AFB17CD1DD1016 /* ReplaceMe.m */; };
-		5A7CF00F6E81BC77556CF58ED30558E9 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913D207CA8D13064EC5FDD8CCE4B36E /* SwiftSupport.swift */; };
-		5E4D62E9CBC73AE2B1511DF4141D2A18 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE7451BB2FDFBFC5751748445649B6 /* FBSnapshotTestCasePlatform.m */; };
-		62B49EF71D01A4BC904E9C809DCCF4CC /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D490EF8E130A036442CF349650FF020C /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3052F66DC51AE9FA6CF02F0C9E445AEC /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E2C3981359DB536A5CAFCAB8F27A5 /* UIImage+Snapshot.m */; };
+		314897E18522F2775721694BCD170029 /* UIViewController+LESliderChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D2A2B7308FD9042DDBB94765C301A0 /* UIViewController+LESliderChild.m */; };
+		32085E73DBAE2869CBFD6541E340A252 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D2EBD8847545013983D1F4269B8A2 /* SwiftSupport.swift */; };
+		41B49975D56C28FF713AC679BACF16F7 /* UIViewController+LESliderChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 2289864ADD060F9B6F74F68F7D857751 /* UIViewController+LESliderChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48C88028C59A27B00B495A863C89337E /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D0771EE83EB7CC23F954850BC5F54 /* FBSnapshotTestCase.m */; };
+		5D4A726A5A2E8FAF5E128C47CF641D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE92965D1C20EECC9B00F0B0CF25C3BE /* Foundation.framework */; };
 		63F1BAFAA396D37C70A3C620A07CFFC4 /* Pods-LESliderController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C46F44EF9E1ED7A0B35220093A0FB541 /* Pods-LESliderController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FBC167FF4722B07690A9A0882B86E98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9879B5D86B183ACA0D0E235FE1592695 /* XCTest.framework */; };
-		700B09D606C0D21D10596363C4733755 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1E327DB12E3E3C1B0FB14D69F92F2 /* UIImage+Diff.m */; };
-		7657692A4CC51A8219B248D14D142472 /* LESliderController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA065B68768EFC1805FDDEB22680F676 /* LESliderController-dummy.m */; };
-		AC29A6F82A0AB233EE00BFD69F5F27A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058537F670E9BAB322181563081CC5B7 /* Foundation.framework */; };
-		B0A281465133CA320AA7E89CE76BA7E4 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8D561A57D9D45034378E652FDD721F /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7401CCA7BE1E5E8CCF2650AB0F7339E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 370D23E97D0D427FDC6A19B9D6A3983C /* UIImage+Compare.m */; };
-		BCBD3A6F9C5A175CAAFBEB756671B81D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8F2E70E663FB5B1504E1AFD89245A6 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDC976F32DD6E87286E5885550CB50C9 /* LESliderController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0761A8D6CE7D67B764F0D7ACC6AD359 /* LESliderController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1BA6B5E5A1960D937B0C2FB03D226C0 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E231C4F00154B1C567E1DCE7E38540 /* FBSnapshotTestCase-dummy.m */; };
+		66C845F97E8487F864D3516527A4ACEA /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23F003F882E053A8B54ACBEF442C2BC /* FBSnapshotTestController.m */; };
+		68259CAFB1BE6E61D3C43E0D4A8B9CDF /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 643B423818D1C18D70E005CEC070FF49 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FF84D64A2D3DFF6E2F846BAC39E3C99 /* LESliderController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18C30F5146BF7B0857D3E18EF7A67347 /* LESliderController.bundle */; };
+		715CD5A3A56A8E3F286E79A5B4F8583E /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = A6194E8DD591D13ED36CCA56B66B59A6 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8596C3CF89686DD5BCA0C40A435E1D57 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC6BEA02F197E8292CE955EB4BD527B /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85D2C742EBDB43C4C0AA725E40308B32 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2070700543FDA37A8CD13CFA9F8BC0 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964115165F5C37E9F1370D38814B58B0 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE5F51012DCB21E34FF24E53EEEE8F /* UIImage+Compare.m */; };
+		AC29A6F82A0AB233EE00BFD69F5F27A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE92965D1C20EECC9B00F0B0CF25C3BE /* Foundation.framework */; };
+		B7115DF09649703BBCAEB524F6AF1F21 /* LESliderMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BA8E835BC01EB146EA2576EC868FF6 /* LESliderMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B917623959E7F9732F9113787FA15119 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8751D6D54D072F028B005D4748FAC9D4 /* UIImage+Diff.m */; };
+		B9A1D7883671C429951C5B9C360F856D /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A833A9274B1EAD3FB8611A4E1F4685 /* FBSnapshotTestCase-dummy.m */; };
+		C27A740484CD2882EB46B3ED179A6AE0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445AC6AF58739C7C65A15AAAE99CBAE3 /* XCTest.framework */; };
+		E05E37A739034800799FE842A0260FF2 /* LESliderController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0574C9D1AA45579E42DFE31A00B7F2 /* LESliderController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDD0D310EA0C8496267BEB6589C8B2A1 /* Pods-LESliderController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F11497C0F1764339CD979425D28DF /* Pods-LESliderController_Example-dummy.m */; };
-		EEE7F8E9127E180656E693DA96A77A34 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D44735D3E11A66F8F120C7E46D981E3 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1DF8499900325C7309700A50D36DEBB /* LESliderController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDC70CEA970E10D6E9302FEEDB038809 /* LESliderController.bundle */; };
+		EE5AAE61E67AC1F2F9F902144B7D5565 /* LESliderController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 335596C208F4D232C270F30597ECE230 /* LESliderController-dummy.m */; };
+		F50B2E0E37453018ABAAA570FDBD5C32 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E48761E9F7EE7F7005DF72747729630B /* FBSnapshotTestCasePlatform.m */; };
+		F82634F4D78338814EF56AEFD063352C /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 565E8C72A186B2EAA48710CB4C23A164 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B455A2CC98AF24A1E833262B88C8CA5 /* PBXContainerItemProxy */ = {
+		0B8B2469E808F018B15DAFBAEEA93E0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0B78B18D869B9EDAA8EAB5E392CF3062;
-			remoteInfo = LESliderController;
-		};
-		430D6325512A98A27B9CC67B7E56F0B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B78B18D869B9EDAA8EAB5E392CF3062;
-			remoteInfo = LESliderController;
-		};
-		D2A97107479295B7F2833C5E120810AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF6E2C934414D1252AA1FDCAFE834195;
+			remoteGlobalIDString = 0C68328C2E55EE8A9F88B5BB5B38C171;
 			remoteInfo = "LESliderController-LESliderController";
 		};
-		F31E83729C701C55A89528779D5B23F9 /* PBXContainerItemProxy */ = {
+		B4DE43C1F5F889200A1241E0E4CACA57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BCC6DF7A7FA0DA6984D7F9E03F806BE6;
+			remoteGlobalIDString = 1FBB4A5C41E7AB45FF439BA0C13A12C9;
 			remoteInfo = FBSnapshotTestCase;
+		};
+		CF9270583925F465E0A00D1385C6D41B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1DB46BDE05D863C7F546011858E7248;
+			remoteInfo = LESliderController;
+		};
+		F1F9C07AA2B2DCD1B2B8474F4832B727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1DB46BDE05D863C7F546011858E7248;
+			remoteInfo = LESliderController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		058537F670E9BAB322181563081CC5B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1329C78692AAB321BB5BD54634F2F720 /* Pods-LESliderController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LESliderController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		13E231C4F00154B1C567E1DCE7E38540 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		01D2A2B7308FD9042DDBB94765C301A0 /* UIViewController+LESliderChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LESliderChild.m"; sourceTree = "<group>"; };
+		08AC5BAAB685A78D924907E1C4381ED3 /* LESliderController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LESliderController-Private.xcconfig"; sourceTree = "<group>"; };
+		15156BFD47E95EB34A2FD81A538B751A /* Pods-LESliderController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LESliderController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		162DC6F50C312683D94D26FC65B25D42 /* Pods_LESliderController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LESliderController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C30F5146BF7B0857D3E18EF7A67347 /* LESliderController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LESliderController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D1BCCEA5EFACF91E09BF996A725D723 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2004EE99FF3773793A0B5FD24117D198 /* LESliderController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LESliderController.modulemap; sourceTree = "<group>"; };
 		20502198F12C5960703CF48385158CD2 /* Pods-LESliderController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LESliderController_Example-resources.sh"; sourceTree = "<group>"; };
-		21E8EDB06DE84C45D4D418C2D88E7C7F /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		2289864ADD060F9B6F74F68F7D857751 /* UIViewController+LESliderChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LESliderChild.h"; sourceTree = "<group>"; };
+		231927FE715B4216BB48DEE83D1B83C2 /* Pods-LESliderController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LESliderController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2A9F11497C0F1764339CD979425D28DF /* Pods-LESliderController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LESliderController_Example-dummy.m"; sourceTree = "<group>"; };
 		2AE3B5D06BB56D008EF0BA6B62D9DCBD /* Pods-LESliderController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LESliderController_Tests-dummy.m"; sourceTree = "<group>"; };
-		2D44735D3E11A66F8F120C7E46D981E3 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		370D23E97D0D427FDC6A19B9D6A3983C /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		2E2070700543FDA37A8CD13CFA9F8BC0 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		32BA8E835BC01EB146EA2576EC868FF6 /* LESliderMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LESliderMainViewController.h; sourceTree = "<group>"; };
+		335596C208F4D232C270F30597ECE230 /* LESliderController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LESliderController-dummy.m"; sourceTree = "<group>"; };
 		389A031087A025C5CC6B146D3E843BD7 /* Pods-LESliderController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LESliderController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3C8EDFE81360D75E037F6320F03B5871 /* LESliderController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LESliderController-Private.xcconfig"; sourceTree = "<group>"; };
+		3E4D2EBD8847545013983D1F4269B8A2 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		445AC6AF58739C7C65A15AAAE99CBAE3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4BD2D026071D7FD2BE689CCD1D3B9EF6 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		5C8430CEB80453C32D669E1C948421BC /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		6B8151C0A1824CC37990564A6554EC29 /* Pods-LESliderController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LESliderController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6DF1E327DB12E3E3C1B0FB14D69F92F2 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		720DF74AB624B69646AFB17CD1DD1016 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		53A833A9274B1EAD3FB8611A4E1F4685 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		565E8C72A186B2EAA48710CB4C23A164 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		5FC6BEA02F197E8292CE955EB4BD527B /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		643B423818D1C18D70E005CEC070FF49 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		72951B96995289E29C670E4EB0EA4545 /* Pods_LESliderController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LESliderController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79784B087B7CD516E67E9BEA2AAED1BD /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8D0771EE83EB7CC23F954850BC5F54 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		7E0574C9D1AA45579E42DFE31A00B7F2 /* LESliderController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LESliderController-umbrella.h"; sourceTree = "<group>"; };
 		7F8CCFAA048DEEBAFE6B78297AB7974F /* Pods-LESliderController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LESliderController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		82CCD0D0979B51EF83B53DEBD4B8F415 /* LESliderController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LESliderController-prefix.pch"; sourceTree = "<group>"; };
-		9879B5D86B183ACA0D0E235FE1592695 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9A8F2E70E663FB5B1504E1AFD89245A6 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		8751D6D54D072F028B005D4748FAC9D4 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		99B400785406D7A47883E0BFEDCAAFA0 /* LESliderMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LESliderMainViewController.m; sourceTree = "<group>"; };
 		9FC082840CC2E59D808AFDAC1F4964B0 /* Pods-LESliderController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LESliderController_Tests.modulemap"; sourceTree = "<group>"; };
 		A22FF28A0BABEA12EE8FE5DD343693D2 /* Pods-LESliderController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LESliderController_Tests-resources.sh"; sourceTree = "<group>"; };
+		A23F003F882E053A8B54ACBEF442C2BC /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		A255F827C5BDE86CC673BDDA526DA66D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A48AFAE54A63F3C0079D07FF3DA2DA1C /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		A6194E8DD591D13ED36CCA56B66B59A6 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		ABBFB30F05A4EB2FE4F22CB71B966513 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3EE7451BB2FDFBFC5751748445649B6 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB8D561A57D9D45034378E652FDD721F /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		BF0C7B334A8001D53089333B40D9273B /* Pods-LESliderController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LESliderController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0761A8D6CE7D67B764F0D7ACC6AD359 /* LESliderController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LESliderController-umbrella.h"; sourceTree = "<group>"; };
+		BEB6E6C8995F21F9038D8C0780DB6E4E /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		C1EE5D24C12F09E0889DF11BCDA4D03B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C46F44EF9E1ED7A0B35220093A0FB541 /* Pods-LESliderController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LESliderController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C913D207CA8D13064EC5FDD8CCE4B36E /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		D16212B084E9F899D554B66D14B13043 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		D490EF8E130A036442CF349650FF020C /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		D6F32C26805428AE6851317B5B9ECBE6 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		D92A371FE3E489EE647A295A0BFEA9F7 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		DBBE4BC59BEE7A429A7A72351CD45946 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
-		DDC70CEA970E10D6E9302FEEDB038809 /* LESliderController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LESliderController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E02FDE294B92282EFF765325EBA86763 /* Pods-LESliderController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LESliderController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4AC86C75FBE0C35239546A33126590D /* Pods-LESliderController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LESliderController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D1B4BDDA2E4481EF0B85B2D41210B5BA /* LESliderController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LESliderController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12514A322D51F57733F470E2975DE2B /* Pods-LESliderController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LESliderController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E2E35E21C840053175958EE62207EB97 /* Pods-LESliderController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LESliderController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E48761E9F7EE7F7005DF72747729630B /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		E6AEF9CC1794C216962A1A9DE2B1B8BF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		E7A210856E3CBDF2144BA3681ACD0AEE /* Pods-LESliderController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LESliderController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E7EE65FB0267B9F9BA638213725E8B18 /* LESliderController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LESliderController.xcconfig; sourceTree = "<group>"; };
+		E83AD70801CF3E57E90D24269989E274 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
 		E87742D9E41243ADF8B85935EE3B39E6 /* Pods-LESliderController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LESliderController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E9228964DF7101BFEB929965EB048D9D /* Pods-LESliderController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LESliderController_Example-umbrella.h"; sourceTree = "<group>"; };
-		E9D21CF3D5963E566EE4FEF61B5E2C80 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		ED5557C1278E070B5FCE9EFE8CF76C8F /* LESliderController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LESliderController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF01223CF5AD261B1F321018F646FD43 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFE5F51012DCB21E34FF24E53EEEE8F /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		F5288CB6A262B70DE4B67B90D7E9488C /* Pods-LESliderController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LESliderController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FA065B68768EFC1805FDDEB22680F676 /* LESliderController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LESliderController-dummy.m"; sourceTree = "<group>"; };
+		F75E2C3981359DB536A5CAFCAB8F27A5 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		FBB042C409E64DC67C77EC56A182C302 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		FD0AD2B1D2DFCE70C1D5213B2E3152CB /* Pods-LESliderController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LESliderController_Example.modulemap"; sourceTree = "<group>"; };
+		FE92965D1C20EECC9B00F0B0CF25C3BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,24 +142,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D2A5AC025AB76D9AC1587CB4F8B9F96 /* Frameworks */ = {
+		1680AF1EBE98E4DA41C49D839691A3F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F1DC9254C382C8963EAF3614A34C6D /* Foundation.framework in Frameworks */,
-				6FBC167FF4722B07690A9A0882B86E98 /* XCTest.framework in Frameworks */,
+				5D4A726A5A2E8FAF5E128C47CF641D3E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4873F849DC35E94C182D7E599598F98D /* Frameworks */ = {
+		B0B82C94BC7B71A6EA90947D6B65C19A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326143BCAE71410C0D3D466D97AB97A1 /* Foundation.framework in Frameworks */,
+				02E455A659426ED70E06B994D72F2F30 /* Foundation.framework in Frameworks */,
+				C27A740484CD2882EB46B3ED179A6AE0 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95953C5481E068E7F875A69563D25DFE /* Frameworks */ = {
+		BE17CC657DEEA3A7BAD46754D4ABBE38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -171,6 +177,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EBFD56C913B1EAF8DEA5A27738140E1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BE6CDF0D06C9E33E9E78F9A691CDBB47 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,19 +203,11 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		5B1680C2045F851D475D612DA212BCB8 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				720DF74AB624B69646AFB17CD1DD1016 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		672D1320B537524AB3A5A6B59F3A0AB5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				058537F670E9BAB322181563081CC5B7 /* Foundation.framework */,
-				9879B5D86B183ACA0D0E235FE1592695 /* XCTest.framework */,
+				FE92965D1C20EECC9B00F0B0CF25C3BE /* Foundation.framework */,
+				445AC6AF58739C7C65A15AAAE99CBAE3 /* XCTest.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -209,18 +215,18 @@
 		78B8B06429C9DADE35340BE6C4B7C020 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				9A8F2E70E663FB5B1504E1AFD89245A6 /* FBSnapshotTestCase.h */,
-				E9D21CF3D5963E566EE4FEF61B5E2C80 /* FBSnapshotTestCase.m */,
-				D92A371FE3E489EE647A295A0BFEA9F7 /* FBSnapshotTestCasePlatform.h */,
-				B3EE7451BB2FDFBFC5751748445649B6 /* FBSnapshotTestCasePlatform.m */,
-				D6F32C26805428AE6851317B5B9ECBE6 /* FBSnapshotTestController.h */,
-				5C8430CEB80453C32D669E1C948421BC /* FBSnapshotTestController.m */,
-				D16212B084E9F899D554B66D14B13043 /* UIImage+Compare.h */,
-				370D23E97D0D427FDC6A19B9D6A3983C /* UIImage+Compare.m */,
-				2D44735D3E11A66F8F120C7E46D981E3 /* UIImage+Diff.h */,
-				6DF1E327DB12E3E3C1B0FB14D69F92F2 /* UIImage+Diff.m */,
-				BB8D561A57D9D45034378E652FDD721F /* UIImage+Snapshot.h */,
-				21E8EDB06DE84C45D4D418C2D88E7C7F /* UIImage+Snapshot.m */,
+				FBB042C409E64DC67C77EC56A182C302 /* FBSnapshotTestCase.h */,
+				7D8D0771EE83EB7CC23F954850BC5F54 /* FBSnapshotTestCase.m */,
+				BEB6E6C8995F21F9038D8C0780DB6E4E /* FBSnapshotTestCasePlatform.h */,
+				E48761E9F7EE7F7005DF72747729630B /* FBSnapshotTestCasePlatform.m */,
+				A6194E8DD591D13ED36CCA56B66B59A6 /* FBSnapshotTestController.h */,
+				A23F003F882E053A8B54ACBEF442C2BC /* FBSnapshotTestController.m */,
+				2E2070700543FDA37A8CD13CFA9F8BC0 /* UIImage+Compare.h */,
+				EEFE5F51012DCB21E34FF24E53EEEE8F /* UIImage+Compare.m */,
+				643B423818D1C18D70E005CEC070FF49 /* UIImage+Diff.h */,
+				8751D6D54D072F028B005D4748FAC9D4 /* UIImage+Diff.m */,
+				5FC6BEA02F197E8292CE955EB4BD527B /* UIImage+Snapshot.h */,
+				F75E2C3981359DB536A5CAFCAB8F27A5 /* UIImage+Snapshot.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -240,7 +246,7 @@
 		A80EEBCFF56A296CB07611B3C51CB7CC /* LESliderController */ = {
 			isa = PBXGroup;
 			children = (
-				E030CEB3D998C9413A692988154405A9 /* Pod */,
+				3EBFD56C913B1EAF8DEA5A27738140E1 /* Pod */,
 				E5B4B5013803F34B791524068AF8620E /* Support Files */,
 			);
 			name = LESliderController;
@@ -258,8 +264,8 @@
 				E87742D9E41243ADF8B85935EE3B39E6 /* Pods-LESliderController_Example-frameworks.sh */,
 				20502198F12C5960703CF48385158CD2 /* Pods-LESliderController_Example-resources.sh */,
 				E9228964DF7101BFEB929965EB048D9D /* Pods-LESliderController_Example-umbrella.h */,
-				1329C78692AAB321BB5BD54634F2F720 /* Pods-LESliderController_Example.debug.xcconfig */,
-				E02FDE294B92282EFF765325EBA86763 /* Pods-LESliderController_Example.release.xcconfig */,
+				E7A210856E3CBDF2144BA3681ACD0AEE /* Pods-LESliderController_Example.debug.xcconfig */,
+				231927FE715B4216BB48DEE83D1B83C2 /* Pods-LESliderController_Example.release.xcconfig */,
 			);
 			name = "Pods-LESliderController_Example";
 			path = "Target Support Files/Pods-LESliderController_Example";
@@ -276,17 +282,28 @@
 				E2E35E21C840053175958EE62207EB97 /* Pods-LESliderController_Tests-frameworks.sh */,
 				A22FF28A0BABEA12EE8FE5DD343693D2 /* Pods-LESliderController_Tests-resources.sh */,
 				C46F44EF9E1ED7A0B35220093A0FB541 /* Pods-LESliderController_Tests-umbrella.h */,
-				BF0C7B334A8001D53089333B40D9273B /* Pods-LESliderController_Tests.debug.xcconfig */,
-				6B8151C0A1824CC37990564A6554EC29 /* Pods-LESliderController_Tests.release.xcconfig */,
+				15156BFD47E95EB34A2FD81A538B751A /* Pods-LESliderController_Tests.debug.xcconfig */,
+				C4AC86C75FBE0C35239546A33126590D /* Pods-LESliderController_Tests.release.xcconfig */,
 			);
 			name = "Pods-LESliderController_Tests";
 			path = "Target Support Files/Pods-LESliderController_Tests";
 			sourceTree = "<group>";
 		};
+		BE6CDF0D06C9E33E9E78F9A691CDBB47 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32BA8E835BC01EB146EA2576EC868FF6 /* LESliderMainViewController.h */,
+				99B400785406D7A47883E0BFEDCAAFA0 /* LESliderMainViewController.m */,
+				2289864ADD060F9B6F74F68F7D857751 /* UIViewController+LESliderChild.h */,
+				01D2A2B7308FD9042DDBB94765C301A0 /* UIViewController+LESliderChild.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		C0D3A88223D43E2EE28E545D73C4CC1C /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				C913D207CA8D13064EC5FDD8CCE4B36E /* SwiftSupport.swift */,
+				3E4D2EBD8847545013983D1F4269B8A2 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
 			sourceTree = "<group>";
@@ -302,21 +319,13 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF01223CF5AD261B1F321018F646FD43 /* FBSnapshotTestCase.framework */,
-				DDC70CEA970E10D6E9302FEEDB038809 /* LESliderController.bundle */,
-				ED5557C1278E070B5FCE9EFE8CF76C8F /* LESliderController.framework */,
+				79784B087B7CD516E67E9BEA2AAED1BD /* FBSnapshotTestCase.framework */,
+				18C30F5146BF7B0857D3E18EF7A67347 /* LESliderController.bundle */,
+				D1B4BDDA2E4481EF0B85B2D41210B5BA /* LESliderController.framework */,
 				162DC6F50C312683D94D26FC65B25D42 /* Pods_LESliderController_Example.framework */,
 				72951B96995289E29C670E4EB0EA4545 /* Pods_LESliderController_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E030CEB3D998C9413A692988154405A9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5B1680C2045F851D475D612DA212BCB8 /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		E06BFD54022213057E44809D17C898A0 /* Targets Support Files */ = {
@@ -334,10 +343,10 @@
 				C1EE5D24C12F09E0889DF11BCDA4D03B /* Info.plist */,
 				2004EE99FF3773793A0B5FD24117D198 /* LESliderController.modulemap */,
 				E7EE65FB0267B9F9BA638213725E8B18 /* LESliderController.xcconfig */,
-				3C8EDFE81360D75E037F6320F03B5871 /* LESliderController-Private.xcconfig */,
-				FA065B68768EFC1805FDDEB22680F676 /* LESliderController-dummy.m */,
+				08AC5BAAB685A78D924907E1C4381ED3 /* LESliderController-Private.xcconfig */,
+				335596C208F4D232C270F30597ECE230 /* LESliderController-dummy.m */,
 				82CCD0D0979B51EF83B53DEBD4B8F415 /* LESliderController-prefix.pch */,
-				C0761A8D6CE7D67B764F0D7ACC6AD359 /* LESliderController-umbrella.h */,
+				7E0574C9D1AA45579E42DFE31A00B7F2 /* LESliderController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LESliderController";
@@ -348,10 +357,10 @@
 			children = (
 				4BD2D026071D7FD2BE689CCD1D3B9EF6 /* FBSnapshotTestCase.modulemap */,
 				E6AEF9CC1794C216962A1A9DE2B1B8BF /* FBSnapshotTestCase.xcconfig */,
-				DBBE4BC59BEE7A429A7A72351CD45946 /* FBSnapshotTestCase-Private.xcconfig */,
-				13E231C4F00154B1C567E1DCE7E38540 /* FBSnapshotTestCase-dummy.m */,
+				E83AD70801CF3E57E90D24269989E274 /* FBSnapshotTestCase-Private.xcconfig */,
+				53A833A9274B1EAD3FB8611A4E1F4685 /* FBSnapshotTestCase-dummy.m */,
 				A48AFAE54A63F3C0079D07FF3DA2DA1C /* FBSnapshotTestCase-prefix.pch */,
-				D490EF8E130A036442CF349650FF020C /* FBSnapshotTestCase-umbrella.h */,
+				565E8C72A186B2EAA48710CB4C23A164 /* FBSnapshotTestCase-umbrella.h */,
 				ABBFB30F05A4EB2FE4F22CB71B966513 /* Info.plist */,
 			);
 			name = "Support Files";
@@ -377,17 +386,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		384193EBCBC83671148E08D6A13A76EC /* Headers */ = {
+		043CFB4362833F62EEEE634F207DB7FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B49EF71D01A4BC904E9C809DCCF4CC /* FBSnapshotTestCase-umbrella.h in Headers */,
-				BCBD3A6F9C5A175CAAFBEB756671B81D /* FBSnapshotTestCase.h in Headers */,
-				403FDC49540C95773179ACFD0CF51DC3 /* FBSnapshotTestCasePlatform.h in Headers */,
-				281680DEBD42A8D273CA2BB256376AEF /* FBSnapshotTestController.h in Headers */,
-				26E0894A33DF5F95046BACFE1A8AB696 /* UIImage+Compare.h in Headers */,
-				EEE7F8E9127E180656E693DA96A77A34 /* UIImage+Diff.h in Headers */,
-				B0A281465133CA320AA7E89CE76BA7E4 /* UIImage+Snapshot.h in Headers */,
+				F82634F4D78338814EF56AEFD063352C /* FBSnapshotTestCase-umbrella.h in Headers */,
+				0D58CF81A87241C87A5AE93E374C95B2 /* FBSnapshotTestCase.h in Headers */,
+				235593665154AAF965927D3E76ED4553 /* FBSnapshotTestCasePlatform.h in Headers */,
+				715CD5A3A56A8E3F286E79A5B4F8583E /* FBSnapshotTestController.h in Headers */,
+				85D2C742EBDB43C4C0AA725E40308B32 /* UIImage+Compare.h in Headers */,
+				68259CAFB1BE6E61D3C43E0D4A8B9CDF /* UIImage+Diff.h in Headers */,
+				8596C3CF89686DD5BCA0C40A435E1D57 /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,11 +408,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEEAFC3234A8E211E70FF17E2CB68EE5 /* Headers */ = {
+		DEE9A639F0A1FC406678803A292F9D61 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC976F32DD6E87286E5885550CB50C9 /* LESliderController-umbrella.h in Headers */,
+				E05E37A739034800799FE842A0260FF2 /* LESliderController-umbrella.h in Headers */,
+				B7115DF09649703BBCAEB524F6AF1F21 /* LESliderMainViewController.h in Headers */,
+				41B49975D56C28FF713AC679BACF16F7 /* UIViewController+LESliderChild.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,30 +432,45 @@
 			buildRules = (
 			);
 			dependencies = (
-				CF3FB55A94B08DF09A0B327802155695 /* PBXTargetDependency */,
+				41951D0B47C48E97C82A4EC57246B0C8 /* PBXTargetDependency */,
 			);
 			name = "Pods-LESliderController_Example";
 			productName = "Pods-LESliderController_Example";
 			productReference = 162DC6F50C312683D94D26FC65B25D42 /* Pods_LESliderController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0B78B18D869B9EDAA8EAB5E392CF3062 /* LESliderController */ = {
+		0C68328C2E55EE8A9F88B5BB5B38C171 /* LESliderController-LESliderController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6575F84FDDD527C95DD3DA8F82BB9D4 /* Build configuration list for PBXNativeTarget "LESliderController" */;
+			buildConfigurationList = AA5CBFBE957F367878E2CEC831526246 /* Build configuration list for PBXNativeTarget "LESliderController-LESliderController" */;
 			buildPhases = (
-				95833D52F218EDF9DF911D92A14CDD10 /* Sources */,
-				4873F849DC35E94C182D7E599598F98D /* Frameworks */,
-				BEDF073941B4C4FBA0772DD532F9B72B /* Resources */,
-				EEEAFC3234A8E211E70FF17E2CB68EE5 /* Headers */,
+				2BFE5D78F65A39BFC24184A390DA8FAC /* Sources */,
+				BE17CC657DEEA3A7BAD46754D4ABBE38 /* Frameworks */,
+				86FD11F2FB3768781DFA64C44B65DE4D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3FC9771F0005A0DEEF1C75ADD4AB8029 /* PBXTargetDependency */,
 			);
-			name = LESliderController;
-			productName = LESliderController;
-			productReference = ED5557C1278E070B5FCE9EFE8CF76C8F /* LESliderController.framework */;
+			name = "LESliderController-LESliderController";
+			productName = "LESliderController-LESliderController";
+			productReference = 18C30F5146BF7B0857D3E18EF7A67347 /* LESliderController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1FBB4A5C41E7AB45FF439BA0C13A12C9 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E759CC5C1601C71FF3562FC494276A0B /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				96C91672F9EF585840D0B13D7D1CC616 /* Sources */,
+				B0B82C94BC7B71A6EA90947D6B65C19A /* Frameworks */,
+				043CFB4362833F62EEEE634F207DB7FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 79784B087B7CD516E67E9BEA2AAED1BD /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AD159DD4D68249449BD6CDCE6648213D /* Pods-LESliderController_Tests */ = {
@@ -458,47 +484,32 @@
 			buildRules = (
 			);
 			dependencies = (
-				4D3DB1CFC5F6A0247CBA9B21A2AB16D7 /* PBXTargetDependency */,
-				A29EBE31C0F57DF6B997323B7C0D8CAB /* PBXTargetDependency */,
+				FC30298E16D9B4876527060E2C81CB21 /* PBXTargetDependency */,
+				BEEF57A8BD917871A0A7711ED4C0169E /* PBXTargetDependency */,
 			);
 			name = "Pods-LESliderController_Tests";
 			productName = "Pods-LESliderController_Tests";
 			productReference = 72951B96995289E29C670E4EB0EA4545 /* Pods_LESliderController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BCC6DF7A7FA0DA6984D7F9E03F806BE6 /* FBSnapshotTestCase */ = {
+		F1DB46BDE05D863C7F546011858E7248 /* LESliderController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99045B03819C8871C746F2DD86E52465 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = 5C7F367B8C508FD33D9E577C7493BD3C /* Build configuration list for PBXNativeTarget "LESliderController" */;
 			buildPhases = (
-				B2DD2D3EEA53C162E2629C52656F8378 /* Sources */,
-				1D2A5AC025AB76D9AC1587CB4F8B9F96 /* Frameworks */,
-				384193EBCBC83671148E08D6A13A76EC /* Headers */,
+				3AC6916072083082B74A6C2B18CD57C4 /* Sources */,
+				1680AF1EBE98E4DA41C49D839691A3F2 /* Frameworks */,
+				B26BD7F362C249D90A5556572F80B151 /* Resources */,
+				DEE9A639F0A1FC406678803A292F9D61 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9716F2195ADF41C2B2A87ED91E1C6FD7 /* PBXTargetDependency */,
 			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = EF01223CF5AD261B1F321018F646FD43 /* FBSnapshotTestCase.framework */;
+			name = LESliderController;
+			productName = LESliderController;
+			productReference = D1B4BDDA2E4481EF0B85B2D41210B5BA /* LESliderController.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		DF6E2C934414D1252AA1FDCAFE834195 /* LESliderController-LESliderController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ACF2EED1EDF39983404A8079EDDE7C30 /* Build configuration list for PBXNativeTarget "LESliderController-LESliderController" */;
-			buildPhases = (
-				AD121F04E444840BFAAB32E94BC2E429 /* Sources */,
-				95953C5481E068E7F875A69563D25DFE /* Frameworks */,
-				4EE26DA8787CCCDA797A940E1C9F3D22 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LESliderController-LESliderController";
-			productName = "LESliderController-LESliderController";
-			productReference = DDC70CEA970E10D6E9302FEEDB038809 /* LESliderController.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -521,9 +532,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCC6DF7A7FA0DA6984D7F9E03F806BE6 /* FBSnapshotTestCase */,
-				0B78B18D869B9EDAA8EAB5E392CF3062 /* LESliderController */,
-				DF6E2C934414D1252AA1FDCAFE834195 /* LESliderController-LESliderController */,
+				1FBB4A5C41E7AB45FF439BA0C13A12C9 /* FBSnapshotTestCase */,
+				F1DB46BDE05D863C7F546011858E7248 /* LESliderController */,
+				0C68328C2E55EE8A9F88B5BB5B38C171 /* LESliderController-LESliderController */,
 				02E4D46A8E86F4E5788315F6DEEE47ED /* Pods-LESliderController_Example */,
 				AD159DD4D68249449BD6CDCE6648213D /* Pods-LESliderController_Tests */,
 			);
@@ -531,24 +542,41 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4EE26DA8787CCCDA797A940E1C9F3D22 /* Resources */ = {
+		86FD11F2FB3768781DFA64C44B65DE4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEDF073941B4C4FBA0772DD532F9B72B /* Resources */ = {
+		B26BD7F362C249D90A5556572F80B151 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DF8499900325C7309700A50D36DEBB /* LESliderController.bundle in Resources */,
+				6FF84D64A2D3DFF6E2F846BAC39E3C99 /* LESliderController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2BFE5D78F65A39BFC24184A390DA8FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6916072083082B74A6C2B18CD57C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5AAE61E67AC1F2F9F902144B7D5565 /* LESliderController-dummy.m in Sources */,
+				1905FD3C99868E9CA9F77C6032E65F6B /* LESliderMainViewController.m in Sources */,
+				314897E18522F2775721694BCD170029 /* UIViewController+LESliderChild.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		828CCCA9A365C1FA8B86F7B85F101770 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -557,12 +585,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95833D52F218EDF9DF911D92A14CDD10 /* Sources */ = {
+		96C91672F9EF585840D0B13D7D1CC616 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7657692A4CC51A8219B248D14D142472 /* LESliderController-dummy.m in Sources */,
-				487EDA9BE1EE34E5B46D353353F799C3 /* ReplaceMe.m in Sources */,
+				B9A1D7883671C429951C5B9C360F856D /* FBSnapshotTestCase-dummy.m in Sources */,
+				48C88028C59A27B00B495A863C89337E /* FBSnapshotTestCase.m in Sources */,
+				F50B2E0E37453018ABAAA570FDBD5C32 /* FBSnapshotTestCasePlatform.m in Sources */,
+				66C845F97E8487F864D3516527A4ACEA /* FBSnapshotTestController.m in Sources */,
+				32085E73DBAE2869CBFD6541E340A252 /* SwiftSupport.swift in Sources */,
+				964115165F5C37E9F1370D38814B58B0 /* UIImage+Compare.m in Sources */,
+				B917623959E7F9732F9113787FA15119 /* UIImage+Diff.m in Sources */,
+				3052F66DC51AE9FA6CF02F0C9E445AEC /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,93 +608,234 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD121F04E444840BFAAB32E94BC2E429 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2DD2D3EEA53C162E2629C52656F8378 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1BA6B5E5A1960D937B0C2FB03D226C0 /* FBSnapshotTestCase-dummy.m in Sources */,
-				2D52C907928380F31E26DE31E97DF8D8 /* FBSnapshotTestCase.m in Sources */,
-				5E4D62E9CBC73AE2B1511DF4141D2A18 /* FBSnapshotTestCasePlatform.m in Sources */,
-				3C949058F7FA7DAD54EFFF074E5F1553 /* FBSnapshotTestController.m in Sources */,
-				5A7CF00F6E81BC77556CF58ED30558E9 /* SwiftSupport.swift in Sources */,
-				B7401CCA7BE1E5E8CCF2650AB0F7339E /* UIImage+Compare.m in Sources */,
-				700B09D606C0D21D10596363C4733755 /* UIImage+Diff.m in Sources */,
-				13BF36C3B9EF8441921FA82DD85F9A6A /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3FC9771F0005A0DEEF1C75ADD4AB8029 /* PBXTargetDependency */ = {
+		41951D0B47C48E97C82A4EC57246B0C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LESliderController;
+			target = F1DB46BDE05D863C7F546011858E7248 /* LESliderController */;
+			targetProxy = F1F9C07AA2B2DCD1B2B8474F4832B727 /* PBXContainerItemProxy */;
+		};
+		9716F2195ADF41C2B2A87ED91E1C6FD7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LESliderController-LESliderController";
-			target = DF6E2C934414D1252AA1FDCAFE834195 /* LESliderController-LESliderController */;
-			targetProxy = D2A97107479295B7F2833C5E120810AD /* PBXContainerItemProxy */;
+			target = 0C68328C2E55EE8A9F88B5BB5B38C171 /* LESliderController-LESliderController */;
+			targetProxy = 0B8B2469E808F018B15DAFBAEEA93E0F /* PBXContainerItemProxy */;
 		};
-		4D3DB1CFC5F6A0247CBA9B21A2AB16D7 /* PBXTargetDependency */ = {
+		BEEF57A8BD917871A0A7711ED4C0169E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LESliderController;
+			target = F1DB46BDE05D863C7F546011858E7248 /* LESliderController */;
+			targetProxy = CF9270583925F465E0A00D1385C6D41B /* PBXContainerItemProxy */;
+		};
+		FC30298E16D9B4876527060E2C81CB21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
-			target = BCC6DF7A7FA0DA6984D7F9E03F806BE6 /* FBSnapshotTestCase */;
-			targetProxy = F31E83729C701C55A89528779D5B23F9 /* PBXContainerItemProxy */;
-		};
-		A29EBE31C0F57DF6B997323B7C0D8CAB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LESliderController;
-			target = 0B78B18D869B9EDAA8EAB5E392CF3062 /* LESliderController */;
-			targetProxy = 2B455A2CC98AF24A1E833262B88C8CA5 /* PBXContainerItemProxy */;
-		};
-		CF3FB55A94B08DF09A0B327802155695 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LESliderController;
-			target = 0B78B18D869B9EDAA8EAB5E392CF3062 /* LESliderController */;
-			targetProxy = 430D6325512A98A27B9CC67B7E56F0B3 /* PBXContainerItemProxy */;
+			target = 1FBB4A5C41E7AB45FF439BA0C13A12C9 /* FBSnapshotTestCase */;
+			targetProxy = B4DE43C1F5F889200A1241E0E4CACA57 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		276E9176377A82A339FEC673B5B63F09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231927FE715B4216BB48DEE83D1B83C2 /* Pods-LESliderController_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LESliderController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LESliderController_Example/Pods-LESliderController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LESliderController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		292247ABF205E385341968FAC704281C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E83AD70801CF3E57E90D24269989E274 /* FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CF8BDD5A064EB075FBCFEBB7E2B384B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E83AD70801CF3E57E90D24269989E274 /* FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D00E5C981B629C766E58339F4B10F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15156BFD47E95EB34A2FD81A538B751A /* Pods-LESliderController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LESliderController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LESliderController_Tests/Pods-LESliderController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LESliderController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		829E323C317987CE1BA08846D8360498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08AC5BAAB685A78D924907E1C4381ED3 /* LESliderController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LESliderController/LESliderController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LESliderController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LESliderController/LESliderController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LESliderController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A8BC66EDB6EE209AE4C97815315D333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08AC5BAAB685A78D924907E1C4381ED3 /* LESliderController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LESliderController/LESliderController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LESliderController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LESliderController/LESliderController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LESliderController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A05574ED4C9F3252A3C6D6A4A5DBC95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AC86C75FBE0C35239546A33126590D /* Pods-LESliderController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LESliderController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LESliderController_Tests/Pods-LESliderController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LESliderController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -692,43 +867,28 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		2F49508CAB9193BB51D3B5874F0F7EF1 /* Release */ = {
+		B7BB3C0E49A220FAC4CCD5A23A9AFA0F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBBE4BC59BEE7A429A7A72351CD45946 /* FBSnapshotTestCase-Private.xcconfig */;
+			baseConfigurationReference = 08AC5BAAB685A78D924907E1C4381ED3 /* LESliderController-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.3;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = LESliderController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		2FB449BFFF388931F714A2EACEEE75A3 /* Debug */ = {
+		CF1AF9C1208AF5B22EA56420560A57E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C8EDFE81360D75E037F6320F03B5871 /* LESliderController-Private.xcconfig */;
+			baseConfigurationReference = 08AC5BAAB685A78D924907E1C4381ED3 /* LESliderController-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = LESliderController;
@@ -738,64 +898,9 @@
 			};
 			name = Debug;
 		};
-		5B0BCFAB45CB84C54A67DFE6F961F195 /* Debug */ = {
+		EF4727541A5174978527E49AF26D6834 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBBE4BC59BEE7A429A7A72351CD45946 /* FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.3;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8C5C0179E007337FC47592FBB0779751 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C8EDFE81360D75E037F6320F03B5871 /* LESliderController-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LESliderController/LESliderController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LESliderController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LESliderController/LESliderController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LESliderController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8EC90556C8AA58C2E9C7F71CB47808D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E02FDE294B92282EFF765325EBA86763 /* Pods-LESliderController_Example.release.xcconfig */;
+			baseConfigurationReference = E7A210856E3CBDF2144BA3681ACD0AEE /* Pods-LESliderController_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -806,36 +911,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LESliderController_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-LESliderController_Example/Pods-LESliderController_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_LESliderController_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		927C8EEA68BC8AF903F9D3A40A4C808F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1329C78692AAB321BB5BD54634F2F720 /* Pods-LESliderController_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LESliderController_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-LESliderController_Example/Pods-LESliderController_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -851,103 +927,39 @@
 			};
 			name = Debug;
 		};
-		A78EADA1CBFD79380B83BA123231A46F /* Debug */ = {
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C8EDFE81360D75E037F6320F03B5871 /* LESliderController-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LESliderController/LESliderController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LESliderController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LESliderController/LESliderController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LESliderController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB66EA0115933483E68A5FB2DBD4BF5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C8EDFE81360D75E037F6320F03B5871 /* LESliderController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LESliderController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		D79AE00443B55A2511D2B2F25519A19F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B8151C0A1824CC37990564A6554EC29 /* Pods-LESliderController_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LESliderController_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-LESliderController_Tests/Pods-LESliderController_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_LESliderController_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EFE15CE571303AE460B64C68B64F53E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF0C7B334A8001D53089333B40D9273B /* Pods-LESliderController_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LESliderController_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-LESliderController_Tests/Pods-LESliderController_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_LESliderController_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -955,8 +967,8 @@
 		29D0A39BBF2AFEF450106BF9E4893CDF /* Build configuration list for PBXNativeTarget "Pods-LESliderController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFE15CE571303AE460B64C68B64F53E2 /* Debug */,
-				D79AE00443B55A2511D2B2F25519A19F /* Release */,
+				2D00E5C981B629C766E58339F4B10F8C /* Debug */,
+				A05574ED4C9F3252A3C6D6A4A5DBC95C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -964,8 +976,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -973,35 +985,35 @@
 		55AD54701989549CF213131A3C4BC97D /* Build configuration list for PBXNativeTarget "Pods-LESliderController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				927C8EEA68BC8AF903F9D3A40A4C808F /* Debug */,
-				8EC90556C8AA58C2E9C7F71CB47808D0 /* Release */,
+				EF4727541A5174978527E49AF26D6834 /* Debug */,
+				276E9176377A82A339FEC673B5B63F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99045B03819C8871C746F2DD86E52465 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		5C7F367B8C508FD33D9E577C7493BD3C /* Build configuration list for PBXNativeTarget "LESliderController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0BCFAB45CB84C54A67DFE6F961F195 /* Debug */,
-				2F49508CAB9193BB51D3B5874F0F7EF1 /* Release */,
+				9A8BC66EDB6EE209AE4C97815315D333 /* Debug */,
+				829E323C317987CE1BA08846D8360498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACF2EED1EDF39983404A8079EDDE7C30 /* Build configuration list for PBXNativeTarget "LESliderController-LESliderController" */ = {
+		AA5CBFBE957F367878E2CEC831526246 /* Build configuration list for PBXNativeTarget "LESliderController-LESliderController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FB449BFFF388931F714A2EACEEE75A3 /* Debug */,
-				AB66EA0115933483E68A5FB2DBD4BF5B /* Release */,
+				CF1AF9C1208AF5B22EA56420560A57E6 /* Debug */,
+				B7BB3C0E49A220FAC4CCD5A23A9AFA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6575F84FDDD527C95DD3DA8F82BB9D4 /* Build configuration list for PBXNativeTarget "LESliderController" */ = {
+		E759CC5C1601C71FF3562FC494276A0B /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A78EADA1CBFD79380B83BA123231A46F /* Debug */,
-				8C5C0179E007337FC47592FBB0779751 /* Release */,
+				2CF8BDD5A064EB075FBCFEBB7E2B384B /* Debug */,
+				292247ABF205E385341968FAC704281C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

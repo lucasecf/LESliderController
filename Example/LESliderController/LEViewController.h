@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface LEViewController : UIViewController
+#import <LESliderController/LESliderMainViewController.h>
+
+@interface LEViewController : LESliderMainViewController
 
 @end

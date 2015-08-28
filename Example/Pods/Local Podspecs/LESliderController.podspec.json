@@ -1,19 +1,18 @@
 {
   "name": "LESliderController",
   "version": "0.1.0",
-  "summary": "A short description of LESliderController.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/LESliderController",
+  "summary": "Another container controller.",
+  "homepage": "https://github.com/lucasecf/LESliderController",
   "license": "MIT",
   "authors": {
     "Lucas Eduardo": "lucasecf@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/LESliderController.git",
+    "git": "https://github.com/lucasecf/LESliderController.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",

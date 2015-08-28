@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1598BCF55192A4ECB2220A86"
+               BlueprintIdentifier = "3EA74FC5264E4CD69D3ED03D"
                BuildableName = "LESliderController.framework"
                BlueprintName = "LESliderController"
                ReferencedContainer = "container:Pods.xcodeproj">
