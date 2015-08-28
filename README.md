@@ -83,7 +83,7 @@ Notice the ```onSide:``` parameter. You can choose either ```LESliderSideRight``
 
 With this piece of code, you are already ready to present the controllers via a pan gesture in the buttons you registered in the ```registerTriggerView:``` parameter.
 
-5) Finally, implement actions for the buttons (or a tap gesture recognizer if not using buttons) to trigger the transition when tapping in it.
+5) Implement actions for the buttons (or a tap gesture recognizer if not using buttons) to trigger the transition when tapping in it.
 
 ```objective-c
 - (IBAction)leftButtonDidTouch:(id)sender {
@@ -96,13 +96,69 @@ With this piece of code, you are already ready to present the controllers via a 
 }
 ```
 
+6) Finally, inside the presented controller, import the ```#import <LESliderController/UIViewController+LESliderChild.h>``` header and in a action of any button, call the method below to dismiss the controller.
+
+```objective-c
+#import "UIViewController+LESliderChild.h"
+
+@implementation MyChildViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+- (IBAction)didTouchBackBtn:(id)sender {
+    //[self dismissSliderController:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+@end
+
+```
+
 
 #### Advanced Options
-(in progress)
+ 
+Check the ```LESliderMainViewController.h``` to see all avaliable properties. You can use them, for example, to change the duration of the animations.
+
+##### Caching controllers 
+
+One particular topic is about caching the presented controllers. The basic setup keeps the reference of the controllers in memory, similar to what the UITabBarController does. This means that, once you present the controller, dismiss it, and present it again, the previous state was preserved. This can be very helpful to avoid multiple requisition loads, for example, but could also be problematic if the controller is heavy and holds a lot of memory.
+
+If thats the case, and you want to avoid this behaviour, you can do the setup below to release the controllers after the dismiss.
+
+In your subclass of ```LESliderMainViewController.h```:
+
+```
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.cacheControllers = NO;
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)rightButtonDidTouch:(id)sender {
+    UIViewController *rightViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"RightViewController"];
+    [self registerTriggerView:self.rightButton toViewController:rightViewController onSide:LESliderSideRight];
+    [self showRegisteredViewControllerForTriggerView:sender animated:YES completion:nil];
+}
+
+- (IBAction)leftButtonDidTouch:(id)sender {
+    UIViewController *leftViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
+    [self registerTriggerView:self.leftButton toViewController:leftViewController onSide:LESliderSideLeft];
+    [self showRegisteredViewControllerForTriggerView:sender animated:YES completion:nil];
+}
+```
 
 ## TODO:
 
-1) Refactor the ```LESliderMainViewController.m``` file to allow change of orientation during execution.
+* Refactor the ```LESliderMainViewController.m``` file to allow change of orientation during execution.
 
 
 ## Collaborate
