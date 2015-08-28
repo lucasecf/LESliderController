@@ -2,7 +2,7 @@
 
 ## What is this
 
-Just a container controller, to present another controllers with a nice and different animation! See a example of app that uses it:
+Just a container controller, to present another controllers via tap/pan gesture with a nice and different animation! See a example of app that uses it:
 
 <p align="center">
 <img src="Images/preview.gif" alt="GIF 1" width="375px" />
