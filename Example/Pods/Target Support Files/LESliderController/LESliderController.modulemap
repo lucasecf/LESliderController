@@ -1,0 +1,6 @@
+framework module LESliderController {
+  umbrella header "LESliderController-umbrella.h"
+
+  export *
+  module * { export * }
+}

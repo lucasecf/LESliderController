@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.3):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.3)
+  - FBSnapshotTestCase/Core (2.0.3)
+  - FBSnapshotTestCase/SwiftSupport (2.0.3):
+    - FBSnapshotTestCase/Core
+  - LESliderController (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LESliderController (from `../`)
+
+EXTERNAL SOURCES:
+  LESliderController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
+  LESliderController: 953b8e0ac8bbda1b9ce41dc8d358ca56f59a06a1
+
+COCOAPODS: 0.38.2
