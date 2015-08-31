@@ -29,7 +29,7 @@ pod 'LESliderController', '~> 0.1'
 
 #### Manually
 
-Drag and copy all files in the [__LECropPictureViewController__](Pod/Classes) folder into your project, or add it as a git submodule.
+Drag and copy all files in the [__LESliderController__](Pod/Classes) folder into your project, or add it as a git submodule.
 
 ## How to use
 
