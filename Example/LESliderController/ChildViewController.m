@@ -7,7 +7,7 @@
 //
 
 #import "ChildViewController.h"
-#import "UIViewController+LESliderChild.h"
+#import <LESliderController/UIViewController+LESliderChild.h>
 
 @interface ChildViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *testLabel;
