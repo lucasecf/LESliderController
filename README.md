@@ -130,7 +130,7 @@ If thats the case, and you want to avoid this behaviour, you can do the setup be
 
 In your subclass of ```LESliderMainViewController.h```:
 
-```
+```objective-c
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
