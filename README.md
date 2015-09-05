@@ -112,8 +112,7 @@ With this piece of code, you are already ready to present the controllers via a 
 }
 
 - (IBAction)didTouchBackBtn:(id)sender {
-    //[self dismissSliderController:YES];
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissSliderController:YES];
 }
 
 @end
