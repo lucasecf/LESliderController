@@ -35,7 +35,7 @@ Drag and copy all files in the [__LESliderController__](Pod/Classes) folder into
 
 #### Basic Usage
 
-To use the LESliderController is very easy and straightforward. Follow the steps below:
+The use of ```LESliderController``` is very easy and straightforward. Follow the steps below:
 
 1) Make the controller you want to make the root/container of the navigation a subclass of ```LESliderMainViewController```:
 
