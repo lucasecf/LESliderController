@@ -29,13 +29,13 @@ pod 'LESliderController', '~> 0.1'
 
 #### Manually
 
-Drag and copy all files in the [__LECropPictureViewController__](Pod/Classes) folder into your project, or add it as a git submodule.
+Drag and copy all files in the [__LESliderController__](Pod/Classes) folder into your project, or add it as a git submodule.
 
 ## How to use
 
 #### Basic Usage
 
-To use the LESliderController is very easy and straightforward. Follow the steps below:
+The use of ```LESliderController``` is very easy and straightforward. Follow the steps below:
 
 1) Make the controller you want to make the root/container of the navigation a subclass of ```LESliderMainViewController```:
 
@@ -130,7 +130,7 @@ If thats the case, and you want to avoid this behaviour, you can do the setup be
 
 In your subclass of ```LESliderMainViewController.h```:
 
-```
+```objective-c
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
