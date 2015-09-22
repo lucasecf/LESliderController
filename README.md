@@ -57,10 +57,13 @@ The use of ```LESliderController``` is very easy and straightforward. Follow the
 @property (weak, nonatomic) IBOutlet UIButton *rightButton;
 @property (weak, nonatomic) IBOutlet UIButton *leftButton;
 
-@end
 ```
 
 3) If you are using storyboad, for each "child" you want to present throughout the main view, set a ```Storyboard ID``` in the third tab of interface builder (identity inspector).
+
+<p align="center">
+<img src="Images/step3.png" alt="IMG 1" width="300px" />
+</p>
 
 4) Now, in the implementation (.m) file of the controller, setup each "child" controller you want as the example below:
 
@@ -109,8 +112,7 @@ With this piece of code, you are already ready to present the controllers via a 
 }
 
 - (IBAction)didTouchBackBtn:(id)sender {
-    //[self dismissSliderController:YES];
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissSliderController:YES];
 }
 
 @end
