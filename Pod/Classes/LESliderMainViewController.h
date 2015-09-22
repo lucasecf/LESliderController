@@ -81,7 +81,7 @@ typedef enum {
  @param triggerView View that the pan gesture will be added.
  
  */
--(void)addSliderGesture:(LESliderSide)sliderSide toTriggerView:(UIButton*)triggerView;
+-(void)addSliderGesture:(LESliderSide)sliderSide toTriggerView:(UIView*)triggerView;
 
 
 /**
