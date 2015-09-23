@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LESliderController"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Another container controller."
 
   s.homepage         = "https://github.com/lucasecf/LESliderController"
