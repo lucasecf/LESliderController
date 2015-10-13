@@ -100,7 +100,7 @@
 
 #pragma mark - setup methods
 
--(void)registerTriggerView:(UIView*)triggerView toViewController:(UIViewController*)viewController onSide:(LESliderSide)sliderSide
+- (void)registerTriggerView:(UIView*)triggerView toViewController:(UIViewController*)viewController onSide:(LESliderSide)sliderSide
 {
     viewController.sliderSide = sliderSide;
     _mappedViewControllers[[NSString stringWithFormat:@"%p", triggerView]] = viewController;
@@ -121,6 +121,12 @@
     }
 }
 
+#pragma mark - snapshot view
+
+- (void)updateSnapshotTransitionImage
+{
+    _snapshotView.image = [self snapshotOfView:self.view];
+}
 
 #pragma mark - show controllers
 
@@ -384,7 +390,7 @@
     //adding snapshot view as subview
     [self.view addSubview:_snapshotView];
     [self.view sendSubviewToBack:_snapshotView];
-
+    
     //configuring colors
     _originalBackgroundColor = self.view.backgroundColor;
     self.view.backgroundColor = self.voidColor;

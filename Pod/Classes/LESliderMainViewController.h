@@ -43,7 +43,7 @@ typedef enum {
 
 /**
  Values used to control the duration of the animations. Default ones are 0.7 and 0.4, respectively.
-*/
+ */
 @property (assign, nonatomic) CGFloat animationPresentingDuration;
 @property (assign, nonatomic) CGFloat animationDismissDuration;
 
@@ -61,7 +61,7 @@ typedef enum {
 #pragma mark - public methods
 
 /**
- Setup method. Use this one to assign a view that will trigger a controller transition. 
+ Setup method. Use this one to assign a view that will trigger a controller transition.
  
  @param triggerView View that will trigger the controller transition, like a UIButton or even a normal UIView (with gesture recognizers)
  
@@ -70,7 +70,7 @@ typedef enum {
  @param sliderSide Side of the transition animation. See the LESliderSide enum to check the possible values
  
  */
--(void)registerTriggerView:(UIView*)triggerView toViewController:(UIViewController*)viewController onSide:(LESliderSide)sliderSide;
+- (void)registerTriggerView:(UIView*)triggerView toViewController:(UIViewController*)viewController onSide:(LESliderSide)sliderSide;
 
 
 /**
@@ -81,7 +81,13 @@ typedef enum {
  @param triggerView View that the pan gesture will be added.
  
  */
--(void)addSliderGesture:(LESliderSide)sliderSide toTriggerView:(UIView*)triggerView;
+- (void)addSliderGesture:(LESliderSide)sliderSide toTriggerView:(UIView*)triggerView;
+
+
+/**
+ The view you see been resized during the transition is only a snapshot of your real controller. Call this method if you want to update this snapshot, if your main controller changed it's UI somehow.
+ */
+- (void)updateSnapshotTransitionImage;
 
 
 /**
@@ -107,7 +113,7 @@ typedef enum {
  @param completionBlock Block that will be executed when the transition finishes.
  
  */
--(void)dismissSliderViewController:(UIViewController*)viewController animated:(BOOL)animated completion:(void(^)(void))completionBlock;
+- (void)dismissSliderViewController:(UIViewController*)viewController animated:(BOOL)animated completion:(void(^)(void))completionBlock;
 
 
 /**
