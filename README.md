@@ -18,7 +18,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-#### Cocoapods
+#### CocoaPods
 
 LESliderController is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
